@@ -1,0 +1,43 @@
+.card {
+  width: 400px;
+  margin: 0 auto;
+  max-width: 24rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  border: 1px solid rgb(93, 93, 93);
+}
+
+img {
+  height: 2.5rem;
+  width: 2.5rem;
+  border: 2px solid #000;
+  border-radius: 100%;
+}
+
+.card-header {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.company-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.email {
+  color: #888;
+}
+
+.button {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #222;
+  color: #eee;
+}
